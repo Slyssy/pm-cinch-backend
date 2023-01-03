@@ -8,7 +8,7 @@ const {
   show,
   update,
   remove,
-} = require('../controllers/projectControllers');
+} = require('../controllers/organizationControllers');
 
 // # Route to CREATE NEW USER
 router.post('/', create);

@@ -74,3 +74,25 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IktMZXJtYSIsInVzZXJJRCI6Miw
 }
 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkxNYXJrZSIsInVzZXJJRCI6NCwiZmlyc3ROYW1lIjoiTGVhaCIsImxhc3ROYW1lIjoiTWFya2UiLCJlbWFpbCI6ImxlYWgubWFya2VAZ21haWwuY29tIiwiaWF0IjoxNjY1ODkyNzMyfQ.-CaoFCKynaVNYG3h-_DP07ydgzFGe_jsOmYzLZ5f-QU
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+{
+    "email": "stephen.lyssy@gmail.com",
+    "password" : "stephen123"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsIm9yZ2FuaXphdGlvbl9pZCI6MywiZmlyc3RfbmFtZSI6IlN0ZXBoZW4iLCJsYXN0X25hbWUiOiJMeXNzeSIsInBvc2l0aW9uIjoiU2VuaW9yIFByb2plY3QgTWFuYWdlciIsImVtYWlsIjoic3RlcGhlbi5seXNzeUBnbWFpbC5jb20iLCJwYXlfcmF0ZSI6OTIuNTUsInBhc3N3b3JkX2hhc2giOiIkMmIkMTAkbWJTVDVzR3ZaTDNCMkc4Yy5IOVNGZW5lVWNpcDhOV0JRMjEza2E3cVQ5SHJaeUFmMHhCcXEiLCJpYXQiOjE2NzI3MTU4MjB9.WnbFtZw1TYSeWux3IIKhuS303tzgmDPizfUjwikhAp8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+    "email": "jim.anguiano@gmail.com",
+    "password" : "jim123"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm9yZ2FuaXphdGlvbl9pZCI6MiwiZmlyc3RfbmFtZSI6IkppbSIsImxhc3RfbmFtZSI6IkFuZ3VpYW5vIiwicG9zaXRpb24iOiJPd25lciIsImVtYWlsIjoiamltLmFuZ3VpYW5vQGdtYWlsLmNvbSIsInBheV9yYXRlIjoxMjguNTUsInBhc3N3b3JkX2hhc2giOiIkMmIkMTAkZWsvbGtWaXN6aUNQSHB6WnMxRFkxT1lhU2cua0lUcHBvb2xaUWJqc2ZRelI3b1VYVjBEcU8iLCJpYXQiOjE2NzI3MjM4MDZ9.2P3VnJmTHOjaB9dNlXGE677Gu6nhQ0DEfLhsyaSUMOY
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+    "email": "kristin.lerma@gmail.com",
+    "password" : "kristin123"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsIm9yZ2FuaXphdGlvbl9pZCI6MiwiZmlyc3RfbmFtZSI6IktyaXN0aW4iLCJsYXN0X25hbWUiOiJMZXJtYSIsInBvc2l0aW9uIjoiT3duZXIiLCJlbWFpbCI6ImtyaXN0aW4ubGVybWFAZ21haWwuY29tIiwicGF5X3JhdGUiOjEyOC41NSwicGFzc3dvcmRfaGFzaCI6IiQyYiQxMCRUZzlCWUNISG9yNi9TYklCVHdpY1d1VTdXQmEzVTlwU3lKN01DbzdMQmRZLzZFQlNjSC4yNiIsImlhdCI6MTY3MjcyNDE3OH0.AcqS9KmDkl6aVG6TDTokx2_WFxF5fmv99YlwGj4oJ68

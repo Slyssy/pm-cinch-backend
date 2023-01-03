@@ -20,13 +20,12 @@
   "homepage": "https://github.com/Slyssy/pm-cinch#readme",
   "dependencies": {
     "argon2": "^0.30.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",
-    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
     "nodemon": "^2.0.20"
-  },
-  "engines": {
-    "node": "17.6.0"
   }
 }

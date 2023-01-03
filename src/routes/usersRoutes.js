@@ -1,21 +1,23 @@
 const express = require('express');
 const router = express.Router();
 
-//* Importing Controllers
-//* Destructuring imported object to give each function it's own variable name.
+// # Destructuring controller export to set variables...
 const {
-  getUsers,
-  getUsersByID,
-  updateUser,
-  deleteUser,
-} = require('../controllers/usersControllers.js');
+  list,
+  show,
+  update,
+  remove,
+} = require('../controllers/usersControllers');
 
-router.get('/users', getUsers);
+// # Route to GET ALL USERS
+router.get('/', list);
 
-router.get('/users/:id', getUsersByID);
+// # Route to GET USER by id
+router.get('/:id', show);
 
-router.put('/users/:id', updateUser);
+// # Route to UPDATE USER by id
+router.put('/:id', update);
 
-router.delete('/users/:id', deleteUser);
-
+// # Route to DELETE USER by id
+router.delete('/:id', remove);
 module.exports = router;

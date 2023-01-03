@@ -22,8 +22,8 @@ let checkJWT = (req, res, next) => {
   try {
     let unsigned = jwt.verify(signedToken, process.env.JWT_SECRET);
     //* Adding the unsigned to the request object and setting its value to the
-    //  userInfo variable.
-    // console.log(unsigned);
+    //*  userInfo variable.
+    console.log(unsigned);
     req.userInfo = unsigned;
     next();
   } catch (error) {
