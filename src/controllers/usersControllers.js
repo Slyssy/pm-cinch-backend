@@ -3,6 +3,7 @@ const pool = require('../../sql/connection');
 //% Controller to GET all users
 const list = (req, res) => {
   pool.query('SELECT * FROM users', function (err, rows, fields) {
+    console.log(rows);
     res.json(rows);
   });
 };

@@ -71,9 +71,10 @@ const projectRoutes = require('./src/routes/projectRoutes');
 // const userRoutes = require('./src/routes/usersRoutes');
 
 //% Using the route variable created above................................
+// # Set up base route to make sure your app is working.
 app.get('/', (req, res) => {
   res.json({
-    message: 'Welcome to the PM-Cinch Back End!',
+    message: 'Hello World!',
   });
 });
 app.use('/organizations', organizationRoutes);
