@@ -4,10 +4,9 @@ const pool = require('../../sql/connection');
 
 // # Controller to CREATE NEW Project
 const create = (req, res) => {
-  // const {projectName, street1, street2, city, state, zip, projectStatus, projectMargin, originalRevenue, adjustedRevenue, budgetedMaterialExpense, budgetedLaborExpense, }
   const tokenUserID = req.user.id;
   const tokenOrganizationID = req.user.organization_id;
-  console.log(tokenUserID, tokenOrganizationID);
+  // console.log(tokenUserID, tokenOrganizationID);
   // ? Abstracting the variable values
   const params = [
     null,

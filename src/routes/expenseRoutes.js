@@ -1,24 +1,27 @@
 const express = require('express');
 const router = express.Router();
 
-//* Importing Controllers
-//* Destructuring imported object to give each function it's own variable name.
+// # Destructuring controller export to set variables...
 const {
-  getExpenses,
-  getExpenseByID,
-  postExpense,
-  updateExpense,
-  deleteExpense,
+  create,
+  list,
+  show,
+  update,
+  remove,
 } = require('../controllers/expenseControllers');
 
-router.get('/expenses/:projectID', getExpenses);
+// # Route to CREATE NEW Expense
+router.post('/', create);
 
-router.get('/expense/:id', getExpenseByID);
+// # Route to GET ALL Expenses for a project
+router.get('/:projectID', list);
 
-router.post('/expense', postExpense);
+// # Route to GET Expense by id
+router.get('/:id', show);
 
-router.put('/expense/:id', updateExpense);
+// # Route to UPDATE Expense by id
+router.put('/:id', update);
 
-router.delete('/expense/:id', deleteExpense);
-
+// # Route to DELETE Expense by id
+router.delete('/:id', remove);
 module.exports = router;
