@@ -1,81 +1,4 @@
 Users
-{
-    "firstName": "Jim",
-    "lastName": "Anguino",
-    "position": "Supervisor",
-    "email": "jim.anguiano@gmail.com",
-    "phone": "210-586-0006",
-    "payRate": 99.99,
-    "username": "JAnguiano",
-    "password": "mYpassW0rd2"
-}
-
-{
-    "username": "JAnguiano",
-    "password": "mYpassW0rd2"
-}
-
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpBbmd1aWFubyIsInVzZXJJRCI6MywiZmlyc3ROYW1lIjoiSmltIiwibGFzdE5hbWUiOiJBbmd1aW5vIiwiZW1haWwiOiJqaW0uYW5ndWlhbm9AZ21haWwuY29tIiwiaWF0IjoxNjY1ODg1MDI5fQ.cb40XJ9SCvaOfICBkMPRGZIoPxZxDPqilsNF23Ox3Hw
-*************************************************************************
-
-{
-    "firstName": "Stephen",
-    "lastName": "Lyssy",
-    "position": "Project Manager",
-    "email": "stephen.lyssy@gmail.com",
-    "phone": "512-492-2659",
-    "payRate": 128.55,
-    "username": "Slyssy",
-    "password": "mYpassW0rd"
-}
-
-{
-    "username": "Slyssy",
-    "password": "mYpassW0rd"
-}
-
-
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNseXNzeSIsInVzZXJJRCI6MSwiZmlyc3ROYW1lIjoiU3RlcGhlbiIsImxhc3ROYW1lIjoiTHlzc3kiLCJlbWFpbCI6InN0ZXBoZW4ubHlzc3lAZ21haWwuY29tIiwiaWF0IjoxNjY1ODU5NDA4fQ.WPgF3cvYEJ76FLZseFfKroGXpDVdSthfQdKM2hgLuOw
-*************************************************************************
-
-{
-    "firstName": "Kristin",
-    "lastName": "Lerma",
-    "position": "Owner",
-    "email": "kristin.lerma@gmail.com",
-    "phone": "210-832-9330",
-    "payRate": 128.55,
-    "username": "KLerma",
-    "password": "mYpassW0rd3"
-}
-
-{
-    "username": "KLerma",
-    "password": "mYpassW0rd3"
-}
-
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IktMZXJtYSIsInVzZXJJRCI6MiwiZmlyc3ROYW1lIjoiS3Jpc3RpbiIsImxhc3ROYW1lIjoiTGVybWEiLCJlbWFpbCI6ImtyaXN0aW4ubGVybWFAZ21haWwuY29tIiwiaWF0IjoxNjY1ODg1MDY3fQ.cShYiSiDHV-h7VcrJjOG1mKp8tEAf6KVflVYEXb2mck
-*************************************************************************
-
-{
-    "firstName": "Leah",
-    "lastName": "Marke",
-    "position": "Project Engineer",
-    "email": "leah.marke@gmail.com",
-    "phone": "407-529-9007",
-    "payRate": 58.55,
-    "username": "LMarke",
-    "password": "mYpassW0rd4"
-}
-
-{
-    "username": "LMarke",
-    "password": "mYpassW0rd4"
-}
-
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkxNYXJrZSIsInVzZXJJRCI6NCwiZmlyc3ROYW1lIjoiTGVhaCIsImxhc3ROYW1lIjoiTWFya2UiLCJlbWFpbCI6ImxlYWgubWFya2VAZ21haWwuY29tIiwiaWF0IjoxNjY1ODkyNzMyfQ.-CaoFCKynaVNYG3h-_DP07ydgzFGe_jsOmYzLZ5f-QU
-
-
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 {
     "email": "stephen.lyssy@gmail.com",
@@ -96,3 +19,10 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm9yZ2FuaXphdGlvbl9pZCI6MiwiZml
     "password" : "kristin123"
 }
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsIm9yZ2FuaXphdGlvbl9pZCI6MiwiZmlyc3RfbmFtZSI6IktyaXN0aW4iLCJsYXN0X25hbWUiOiJMZXJtYSIsInBvc2l0aW9uIjoiT3duZXIiLCJlbWFpbCI6ImtyaXN0aW4ubGVybWFAZ21haWwuY29tIiwicGF5X3JhdGUiOjEyOC41NSwicGFzc3dvcmRfaGFzaCI6IiQyYiQxMCRUZzlCWUNISG9yNi9TYklCVHdpY1d1VTdXQmEzVTlwU3lKN01DbzdMQmRZLzZFQlNjSC4yNiIsImlhdCI6MTY3MjcyNDE3OH0.AcqS9KmDkl6aVG6TDTokx2_WFxF5fmv99YlwGj4oJ68
+
+{
+    "email": "mollie.walker@gmail.com",
+    "password": "mollie123"
+}
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTcsIm9yZ2FuaXphdGlvbl9pZCI6MywiZmlyc3RfbmFtZSI6Ik1vbGxpZSIsImxhc3RfbmFtZSI6IldhbGtlciIsInBvc2l0aW9uIjoiTWFya2V0aW5nIERpcmVjdG9yIiwiZW1haWwiOiJtb2xsaWUud2Fsa2VyQGdtYWlsLmNvbSIsInBheV9yYXRlIjoyOTIuNTUsInBhc3N3b3JkX2hhc2giOiIkMmIkMTAkUEJHT2xsamlsZ1lGRGh5aWwuUXVtLkNSL0Vlb1Y2UFRQbFpISGYvZ3EzNVk3alVyenF2dEMiLCJpYXQiOjE2NzMxMDE4MDN9.JxEKLRypQGmzW7jEfEJ8u7Q_4cMAUbvL4movlfCQMBk

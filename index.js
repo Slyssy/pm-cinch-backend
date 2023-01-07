@@ -78,7 +78,7 @@ app.get('/', (req, res) => {
   });
 });
 app.use('/organizations', organizationRoutes);
-app.use('/users', userRoutes);
+app.use('/users', authenticateToken, userRoutes);
 app.use('/signup', signUpRoutes);
 app.use('/signin', signInRoutes);
 // app.use(authRoutes);
