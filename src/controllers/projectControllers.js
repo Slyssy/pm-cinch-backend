@@ -51,7 +51,8 @@ const create = (req, res) => {
 //# Controller to GET all projects.
 const list = (req, res) => {
   pool.query(
-    `SELECT * FROM projects WHERE organization_id = ${req.user.organization_id}`,
+    // `SELECT * FROM projects WHERE organization_id = ${req.user.organization_id}`,
+    `SELECT * FROM projects `,
     function (err, rows, fields) {
       res.json(rows);
     }

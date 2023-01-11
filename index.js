@@ -42,18 +42,20 @@ app.use(function (req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
 
   //? Request methods we will allow
-  res.setHeader('Access-Control-Allow-Methods', 'POST');
+  res.setHeader(
+    'Access-Control-Allow-Methods',
+    'GET,OPTIONS,PATCH,DELETE,POST,PUT'
+  );
 
   //? RType of content we wish to allow
   res.setHeader(
     'Access-Control-Allow-Headers',
-    'X-Requested-With,content-type'
+    'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
   );
 
   //? Set to true if you need website to include cookies in the request sent to
   //? api (e.g. in case you use sessions).
   res.setHeader('Access-Control-Allow-Credentials', true);
-
   next();
 });
 
@@ -78,13 +80,16 @@ app.get('/', (req, res) => {
   });
 });
 app.use('/organizations', organizationRoutes);
+
 app.use('/users', authenticateToken, userRoutes);
 app.use('/signup', signUpRoutes);
 app.use('/signin', signInRoutes);
 // app.use(authRoutes);
 // // app.use(commentRoutes);
+
 app.use('/expense', authenticateToken, expenseRoutes);
-app.use('/projects', authenticateToken, projectRoutes);
+app.use('/projects', projectRoutes);
+// app.use('/projects', authenticateToken, projectRoutes);
 // app.use(taskRoutes);
 // // app.use(timesheetRoutes);
 // app.use(userRoutes);
