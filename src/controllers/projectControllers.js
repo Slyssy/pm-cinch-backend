@@ -51,10 +51,10 @@ const create = (req, res) => {
 //# Controller to GET all projects.
 const list = (req, res) => {
   pool.query(
-    // `SELECT * FROM projects WHERE organization_id = ${req.user.organization_id}`,
-    `SELECT * FROM projects `,
+    `SELECT * FROM projects WHERE organization_id = ${req.user.organization_id}`,
+    // `SELECT * FROM projects `,
     function (err, rows, fields) {
-      res.json(rows);
+      res.json({ rows, user: req.user });
     }
   );
 };
@@ -84,10 +84,15 @@ const update = (req, res) => {
 
 // # Controller to DELETE project by ID
 const remove = (req, res) => {
+  const tokenUserID = req.user.id;
   const { id } = req.params;
-  pool.query('DELETE FROM projects WHERE id = ?', [id], (err, row, fields) => {
-    res.json(row);
-  });
+  pool.query(
+    'DELETE FROM projects WHERE id = ? AND user_id = ?',
+    [id, tokenUserID],
+    (err, row, fields) => {
+      res.json(row);
+    }
+  );
 };
 
 module.exports = {

@@ -8,20 +8,20 @@ const {
   show,
   update,
   remove,
-} = require('../controllers/projectControllers');
+} = require('../controllers/changeOrderControllers');
 
-// # Route to CREATE NEW Project
+// # Route to CREATE NEW Change Order
 router.post('/', create);
 
-// # Route to GET ALL Projects
-router.get('/', list);
+// # Route to GET ALL COs for a project
+router.get('/:projectID', list);
 
-// # Route to GET Project by id
+// # Route to GET CO by id
 router.get('/:id', show);
 
-// # Route to UPDATE Project by id
+// # Route to UPDATE CO by id
 router.put('/:id', update);
 
-// # Route to DELETE Project by id
+// # Route to DELETE CO by id
 router.delete('/:id', remove);
 module.exports = router;

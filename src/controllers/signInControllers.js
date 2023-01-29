@@ -24,10 +24,12 @@ const signin = (req, res) => {
         res.json({
           token,
           user: req.user,
+          message: 'Test Message',
         });
       } else {
         // ? Not authenticated.
         res.sendStatus(403);
+        res.send('Invalid Username or Password');
       }
     }
   );

@@ -39,7 +39,7 @@ function authenticateToken(req, res, next) {
 app.use(cors());
 app.use(function (req, res, next) {
   //? Website we wish to allow content
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+  res.setHeader('Access-Control-Allow-Origin', '*');
 
   //? Request methods we will allow
   res.setHeader(
@@ -68,6 +68,7 @@ const signInRoutes = require('./src/routes/signInRoutes');
 // const commentRoutes = require('./src/routes/commentsRoutes');
 const expenseRoutes = require('./src/routes/expenseRoutes');
 const projectRoutes = require('./src/routes/projectRoutes');
+const changeOrderRoutes = require('./src/routes/changeOrderRoutes');
 // const taskRoutes = require('./src/routes/taskRoutes');
 // const timesheetRoutes = require('./src/routes/timesheetRoutes');
 // const userRoutes = require('./src/routes/usersRoutes');
@@ -88,8 +89,9 @@ app.use('/signin', signInRoutes);
 // // app.use(commentRoutes);
 
 app.use('/expense', authenticateToken, expenseRoutes);
-app.use('/projects', projectRoutes);
-// app.use('/projects', authenticateToken, projectRoutes);
+app.use('/changeOrder', authenticateToken, changeOrderRoutes);
+// app.use('/projects', projectRoutes);
+app.use('/projects', authenticateToken, projectRoutes);
 // app.use(taskRoutes);
 // // app.use(timesheetRoutes);
 // app.use(userRoutes);
