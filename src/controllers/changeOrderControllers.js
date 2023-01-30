@@ -18,14 +18,28 @@ const create = (req, res) => {
     req.body.coRevenue,
     req.body.coLaborExpense,
     req.body.coMaterialExpense,
-    req.body.coSubContractorExpense,
+    req.body.coSubcontractorExpense,
     req.body.coMiscellaneousExpense,
   ];
   const sql =
     'INSERT INTO change_orders (id, project_id, co_name, co_description, co_status, date_submitted, date_approved, co_revenue, co_labor_expense, co_material_expense, co_subcontractor_expense, co_miscellaneous_expense)VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)';
 
   pool.query(sql, params, (err, results, fields) => {
-    res.json(results);
+    res.json({
+      changeOrder: {
+        project_id: req.body.projectID,
+        co_name: req.body.coName,
+        co_description: req.body.coDescription,
+        co_status: req.body.coStatus,
+        date_submitted: req.body.dateSubmitted,
+        date_approved: req.body.dateApproved,
+        co_revenue: req.body.coRevenue,
+        co_labor_expense: req.body.coLaborExpense,
+        co_material_expense: req.body.coMaterialExpense,
+        co_subcontractor_expense: req.body.coSubContractorExpense,
+        co_miscellaneous_expense: req.body.coMiscellaneousExpense,
+      },
+    });
   });
 };
 // % Get All Change Orders by project_id Controller --------------------------------------------------------------------------

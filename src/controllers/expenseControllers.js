@@ -19,7 +19,15 @@ const create = (req, res) => {
     'INSERT INTO expenses (id, project_id, expense_date, expense_type, vendor_name, expense_amount)VALUES(?, ?, ?, ?, ?, ?)';
 
   pool.query(sql, params, (err, results, fields) => {
-    res.json(results);
+    res.json({
+      expense: {
+        project_id: req.body.projectID,
+        expense_date: req.body.expenseDate,
+        expense_type: req.body.expenseType,
+        vendor_name: req.body.vendorName,
+        expense_amount: req.body.expenseAmount,
+      },
+    });
   });
 };
 // % Get All Expenses by project_id Controller --------------------------------------------------------------------------
@@ -54,7 +62,7 @@ const show = (req, res) => {
   );
 };
 
-// % Update Expense By ID Controller --------------------------------------------------------------------------------
+// % Update Expense By ID Controllers --------------------------------------------------------------------------------
 // # Controller to UPDATE expense by ID
 const update = (req, res) => {
   const { id } = req.params;
